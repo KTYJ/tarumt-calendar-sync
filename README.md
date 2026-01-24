@@ -1,7 +1,7 @@
 ### LINK:
 
-![ICS File](https://ktyj.github.io/tarumt-calendar-sync/timetable.ics)
-![Webpage](https://ktyj.github.io/tarumt-calendar-sync/timetable.ics)
+[ICS File](https://ktyj.github.io/tarumt-calendar-sync/timetable.ics)
+[Webpage](https://ktyj.github.io/tarumt-calendar-sync/timetable.ics)
 
 
 
