@@ -1,3 +1,10 @@
+### LINK:
+
+![ICS File](https://ktyj.github.io/tarumt-calendar-sync/timetable.ics)
+![Webpage](https://ktyj.github.io/tarumt-calendar-sync/timetable.ics)
+
+
+
 # 📅 Auto-Updating TARUMT Timetable Generator
 
 ![License](https://img.shields.io/github/license/kongjiyu/tarumt-calendar-sync)
