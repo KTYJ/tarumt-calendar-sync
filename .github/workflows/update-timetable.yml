@@ -44,7 +44,7 @@ jobs:
         run: |
           if [ -f timetable.ics ]; then
             CURRENT_YEAR=$(date +%Y)
-            sed -i 's/:$CURRENT_YEAR/:2026/g' timetable.ics
+            sed -i "s/:2025/:$CURRENT_YEAR/g" timetable.ics
           fi
       
       - name: Commit and push if changed
