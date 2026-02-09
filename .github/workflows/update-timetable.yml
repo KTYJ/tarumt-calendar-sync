@@ -39,7 +39,14 @@ jobs:
           APP_SECRET: 3f8a7c12d9e54b88b6a2f4d915c3e7a1
         run: node generateTimetable.js
         continue-on-error: true
-        
+
+      - name: Replace 2025 with current year
+        run: |
+          if [ -f timetable.ics ]; then
+            CURRENT_YEAR=$(date +%Y)
+            sed -i 's/:$CURRENT_YEAR/:2026/g' timetable.ics
+          fi
+      
       - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Actions'
